@@ -52,6 +52,15 @@ ul {
 	text-align: center;
 }
 
+h3 {
+	text-align: center;
+}
+
 li::marker {
 	content: '';
+}
+
+.profCard {
+	border: 2px solid #787878;
+	padding: 5px;
 }
