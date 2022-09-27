@@ -1,10 +1,10 @@
 body {
-  background: #ddd;
-  margin: 1rem;
-  padding: 1rem;
-  max-width: 500px;
-  margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+background: #ddd;
+margin: 1rem;
+padding: 1rem;
+max-width: 500px;
+margin: 2rem auto;
+font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -34,5 +34,24 @@ input {
 }
 
 img {
-	max-width: 300px;
+	max-height: 300px;
+}
+
+.horizontal {
+	display: flex;
+	justify-content: space-around;
+}
+
+p {
+	padding: 5px;
+	line-height: 40px;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+
+li::marker {
+	content: '';
 }
